@@ -1,0 +1,19 @@
+name: daskduckdb
+channels:
+  - conda-forge
+  - defaults
+# windows
+prefix: C:\ProgramData\Anaconda3\envs\
+# mac
+# prefix: /Users/YOUR-USERNAME/opt/anaconda3/envs/
+dependencies:
+  - python=3.*
+  - numpy
+  - pandas
+  - dask
+  - pyarrow
+  - jupyterlab
+  - beautifulsoup4
+  - lxml
+  - requests
+  - python-graphviz

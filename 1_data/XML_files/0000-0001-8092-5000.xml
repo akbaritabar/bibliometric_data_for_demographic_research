@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-8092-5000">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-8092-5000</common:uri>
+        <common:path>0000-0001-8092-5000</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Direct</history:creation-method>
+        <history:submission-date>2019-12-23T02:26:22.545Z</history:submission-date>
+        <common:last-modified-date>2020-09-10T08:26:25.398Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-8092-5000/person">
+        <common:last-modified-date>2019-12-23T02:35:19.020Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-8092-5000">
+            <common:created-date>2019-12-23T02:26:22.766Z</common:created-date>
+            <common:last-modified-date>2019-12-23T13:41:40.969Z</common:last-modified-date>
+            <personal-details:given-names>Weiyu</personal-details:given-names>
+            <personal-details:family-name>Li</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-8092-5000/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-8092-5000/researcher-urls"/>
+        <email:emails path="/0000-0001-8092-5000/email"/>
+        <address:addresses path="/0000-0001-8092-5000/address">
+            <common:last-modified-date>2019-12-23T02:35:19.020Z</common:last-modified-date>
+            <address:address put-code="1472718" visibility="public" path="/0000-0001-8092-5000/address/1472718" display-index="1">
+                <common:created-date>2019-12-23T02:35:19.019Z</common:created-date>
+                <common:last-modified-date>2019-12-23T02:35:19.020Z</common:last-modified-date>
+                <common:source>
+                    <common:source-orcid>
+                        <common:uri>https://orcid.org/0000-0001-8092-5000</common:uri>
+                        <common:path>0000-0001-8092-5000</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-orcid>
+                    <common:source-name>Weiyu Li</common:source-name>
+                </common:source>
+                <address:country>CN</address:country>
+            </address:address>
+        </address:addresses>
+        <keyword:keywords path="/0000-0001-8092-5000/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-8092-5000/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-8092-5000/activities">
+        <common:last-modified-date>2019-12-27T02:24:33.060Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-8092-5000/distinctions"/>
+        <activities:educations path="/0000-0001-8092-5000/educations">
+            <common:last-modified-date>2019-12-26T15:09:58.238Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-12-26T15:09:58.238Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="9434184" display-index="1" path="/0000-0001-8092-5000/education/9434184" visibility="public">
+                    <common:created-date>2019-12-26T15:09:58.238Z</common:created-date>
+                    <common:last-modified-date>2019-12-26T15:09:58.238Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8092-5000</common:uri>
+                            <common:path>0000-0001-8092-5000</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Weiyu Li</common:source-name>
+                    </common:source>
+                    <common:department-name>school of mechanics and civil engineering</common:department-name>
+                    <common:start-date>
+                        <common:year>2015</common:year>
+                        <common:month>09</common:month>
+                        <common:day>01</common:day>
+                    </common:start-date>
+                    <common:end-date>
+                        <common:year>2021</common:year>
+                        <common:month>06</common:month>
+                        <common:day>30</common:day>
+                    </common:end-date>
+                    <common:organization>
+                        <common:name>China University of Mining and Technology - Beijing </common:name>
+                        <common:address>
+                            <common:city>Beijing</common:city>
+                            <common:country>CN</common:country>
+                        </common:address>
+                        <common:disambiguated-organization>
+                            <common:disambiguated-organization-identifier>154610</common:disambiguated-organization-identifier>
+                            <common:disambiguation-source>RINGGOLD</common:disambiguation-source>
+                        </common:disambiguated-organization>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-8092-5000/employments"/>
+        <activities:fundings path="/0000-0001-8092-5000/fundings"/>
+        <activities:invited-positions path="/0000-0001-8092-5000/invited-positions"/>
+        <activities:memberships path="/0000-0001-8092-5000/memberships"/>
+        <activities:peer-reviews path="/0000-0001-8092-5000/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-8092-5000/qualifications"/>
+        <activities:research-resources path="/0000-0001-8092-5000/research-resources"/>
+        <activities:services path="/0000-0001-8092-5000/services"/>
+        <activities:works path="/0000-0001-8092-5000/works">
+            <common:last-modified-date>2019-12-27T02:24:33.060Z</common:last-modified-date>
+            <activities:group>
+                <common:last-modified-date>2019-12-27T02:24:33.060Z</common:last-modified-date>
+                <common:external-ids/>
+                <work:work-summary put-code="66533270" path="/0000-0001-8092-5000/work/66533270" visibility="public" display-index="1">
+                    <common:created-date>2019-12-27T02:24:33.060Z</common:created-date>
+                    <common:last-modified-date>2019-12-27T02:24:33.060Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-orcid>
+                            <common:uri>https://orcid.org/0000-0001-8092-5000</common:uri>
+                            <common:path>0000-0001-8092-5000</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-orcid>
+                        <common:source-name>Weiyu Li</common:source-name>
+                    </common:source>
+                    <work:title>
+                        <common:title>Experimental study on impact dynamic characteristics of layered composite rocks</common:title>
+                    </work:title>
+                    <common:external-ids/>
+                    <work:type>journal-issue</work:type>
+                    <common:publication-date>
+                        <common:year>2019</common:year>
+                        <common:month>09</common:month>
+                        <common:day>15</common:day>
+                    </common:publication-date>
+                    <work:journal-title>Chinese Journal of Rock Mechanics and Engineering</work:journal-title>
+                </work:work-summary>
+            </activities:group>
+        </activities:works>
+    </activities:activities-summary>
+</record:record>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<record:record xmlns:address="http://www.orcid.org/ns/address" xmlns:email="http://www.orcid.org/ns/email" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:education="http://www.orcid.org/ns/education" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:research-resource="http://www.orcid.org/ns/research-resource" xmlns:service="http://www.orcid.org/ns/service" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:person="http://www.orcid.org/ns/person" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:error="http://www.orcid.org/ns/error" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:peer-review="http://www.orcid.org/ns/peer-review" path="/0000-0001-5772-5000">
+    <common:orcid-identifier>
+        <common:uri>https://orcid.org/0000-0001-5772-5000</common:uri>
+        <common:path>0000-0001-5772-5000</common:path>
+        <common:host>orcid.org</common:host>
+    </common:orcid-identifier>
+    <preferences:preferences>
+        <preferences:locale>en</preferences:locale>
+    </preferences:preferences>
+    <history:history>
+        <history:creation-method>Member-referred</history:creation-method>
+        <history:submission-date>2019-12-16T12:53:24.298Z</history:submission-date>
+        <common:last-modified-date>2020-09-15T07:36:05.499Z</common:last-modified-date>
+        <history:claimed>true</history:claimed>
+        <history:verified-email>true</history:verified-email>
+        <history:verified-primary-email>true</history:verified-primary-email>
+    </history:history>
+    <person:person path="/0000-0001-5772-5000/person">
+        <common:last-modified-date>2020-09-15T07:36:03.637Z</common:last-modified-date>
+        <person:name visibility="public" path="0000-0001-5772-5000">
+            <common:created-date>2019-12-16T12:53:24.546Z</common:created-date>
+            <common:last-modified-date>2019-12-16T12:53:24.546Z</common:last-modified-date>
+            <personal-details:given-names>Tingjun</personal-details:given-names>
+            <personal-details:family-name>Ye</personal-details:family-name>
+        </person:name>
+        <other-name:other-names path="/0000-0001-5772-5000/other-names"/>
+        <researcher-url:researcher-urls path="/0000-0001-5772-5000/researcher-urls">
+            <common:last-modified-date>2020-09-15T07:36:03.637Z</common:last-modified-date>
+            <researcher-url:researcher-url put-code="2219871" visibility="public" path="/0000-0001-5772-5000/researcher-urls/2219871" display-index="0">
+                <common:created-date>2020-09-15T07:36:03.637Z</common:created-date>
+                <common:last-modified-date>2020-09-15T07:36:03.637Z</common:last-modified-date>
+                <common:source>
+                    <common:source-client-id>
+                        <common:uri>https://orcid.org/client/APP-GDBANNMKQOIC4TUU</common:uri>
+                        <common:path>APP-GDBANNMKQOIC4TUU</common:path>
+                        <common:host>orcid.org</common:host>
+                    </common:source-client-id>
+                    <common:source-name>University of Manchester - PURE</common:source-name>
+                </common:source>
+                <researcher-url:url-name>The University of Manchester profile page</researcher-url:url-name>
+                <researcher-url:url>https://pureprojects.ppad.man.ac.uk/portal/en/researchers/tingjun-ye(4d784f3c-4915-417a-af43-c77d57c2b92a).html</researcher-url:url>
+            </researcher-url:researcher-url>
+        </researcher-url:researcher-urls>
+        <email:emails path="/0000-0001-5772-5000/email"/>
+        <address:addresses path="/0000-0001-5772-5000/address"/>
+        <keyword:keywords path="/0000-0001-5772-5000/keywords"/>
+        <external-identifier:external-identifiers path="/0000-0001-5772-5000/external-identifiers"/>
+    </person:person>
+    <activities:activities-summary path="/0000-0001-5772-5000/activities">
+        <common:last-modified-date>2019-12-16T21:20:05.149Z</common:last-modified-date>
+        <activities:distinctions path="/0000-0001-5772-5000/distinctions"/>
+        <activities:educations path="/0000-0001-5772-5000/educations">
+            <common:last-modified-date>2019-12-16T21:20:05.149Z</common:last-modified-date>
+            <activities:affiliation-group>
+                <common:last-modified-date>2019-12-16T21:20:05.149Z</common:last-modified-date>
+                <common:external-ids/>
+                <education:education-summary put-code="9378174" display-index="0" path="/0000-0001-5772-5000/education/9378174" visibility="public">
+                    <common:created-date>2019-12-16T21:20:05.149Z</common:created-date>
+                    <common:last-modified-date>2019-12-16T21:20:05.149Z</common:last-modified-date>
+                    <common:source>
+                        <common:source-client-id>
+                            <common:uri>https://orcid.org/client/APP-GDBANNMKQOIC4TUU</common:uri>
+                            <common:path>APP-GDBANNMKQOIC4TUU</common:path>
+                            <common:host>orcid.org</common:host>
+                        </common:source-client-id>
+                        <common:source-name>University of Manchester - PURE</common:source-name>
+                    </common:source>
+                    <common:organization>
+                        <common:name>The University of Manchester</common:name>
+                        <common:address>
+                            <common:city>Manchester</common:city>
+                            <common:country>GB</common:country>
+                        </common:address>
+                    </common:organization>
+                </education:education-summary>
+            </activities:affiliation-group>
+        </activities:educations>
+        <activities:employments path="/0000-0001-5772-5000/employments"/>
+        <activities:fundings path="/0000-0001-5772-5000/fundings"/>
+        <activities:invited-positions path="/0000-0001-5772-5000/invited-positions"/>
+        <activities:memberships path="/0000-0001-5772-5000/memberships"/>
+        <activities:peer-reviews path="/0000-0001-5772-5000/peer-reviews"/>
+        <activities:qualifications path="/0000-0001-5772-5000/qualifications"/>
+        <activities:research-resources path="/0000-0001-5772-5000/research-resources"/>
+        <activities:services path="/0000-0001-5772-5000/services"/>
+        <activities:works path="/0000-0001-5772-5000/works"/>
+    </activities:activities-summary>
+</record:record>
