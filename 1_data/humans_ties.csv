@@ -1,0 +1,8 @@
+source,target,weight,label
+Tom,Sara,0.5,Acquaintance
+Sara,Bill,1,Sibling
+Sara,Margaret,0.5,Acquaintance
+Bill,Tom,0.5,Acquaintance
+Bill,Sara,1,Sibling
+Bill,Margaret,1,Friend
+Margaret,Bill,0.5,Acquaintance
