@@ -1,4 +1,4 @@
-name: daskduckdb
+name: bibliodemography
 channels:
   - conda-forge
   - defaults
@@ -17,3 +17,9 @@ dependencies:
   - lxml
   - requests
   - python-graphviz
+# for text analysis
+  - nltk
+  - spacy
+  - pydash
+  - python-igraph
+  - pycairo

@@ -8,7 +8,7 @@ date: "21/11/2019 - Humboldt University of Berlin"
 output:
   beamer_presentation:
     includes:
-      in_header: preamble.tex
+      in_header: 99_other_preamble.tex
     font: "structurebold"
     theme: "Pittsburgh"
     color: "seahorse"
@@ -95,13 +95,15 @@ edge_list2_use <- read_csv("../1_data/humans_ties.csv")
 kable(edge_list2_use)
 ```
 
-## Convert it to a (network) graph object
+## Convert it to a (network) graph object[^igraphpython]
 \tiny
 ```{r}
 gg = graph_from_data_frame(d = edge_list2_use, directed = TRUE)
 
 print(gg)
 ```
+
+[^igraphpython]: Python users, check script "06_example_network_igraph_python.py" in code directory
 
 ## Plot the graph with a layout (directed)
 \tiny

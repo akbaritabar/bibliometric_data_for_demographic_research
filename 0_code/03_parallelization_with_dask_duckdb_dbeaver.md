@@ -29,22 +29,24 @@ As a practical example, I am going to use ORCID 2019 researcher profiles that ar
 
 You can download the zipped file named "ORCID_2019_summaries.tar.gz", which is 10.76GB. Be patient for it to be unzipped since it includes one XML file per ORCID profile and will take a lot of time to unzip. Here I will show you only one folder with `500` XML files, but the same method and script below will allow you to process all of the 13 million profiles (you might need to do some error handling of course). 
 
-### 1. Required installation and set-up
+### 1. Required installation and set-up for Python
 
 The following software have installation files for Windows/Linux/Mac. Please choose the one suitable for your operating system and install them. None of them require administrator privileges to be installed, hence you can use your personal laptop or work PC to install them.
 
-- Clone (download) this repository from GitHub: https://github.com/akbaritabar/dask-duckdb-dbeaver
+**NOTE**: If you have already followed steps outlined in `01_Required_installation_setup_python.md`, you can skip first steps (conda environment creation) and jump to step on DuckDB, i.e., `Download the DuckDB CLI from: https://duckdb.org/docs/installation/` below.
+
+- Clone (download) this repository from GitHub: [https://github.com/akbaritabar/bibliometric_data_for_demographic_research](https://github.com/akbaritabar/bibliometric_data_for_demographic_research)
 - Please install Anaconda Python from: https://www.anaconda.com/products/individual
-    - Use the "yml" file in this directory named "required_environment.yml" and conda to create an environment with needed python libraries following points below
+    - Use the "yml" file in this directory named "00_setup_required_environment.yml" and conda to create an environment with needed python libraries following points below
     - After successful installation of python, open "Anaconda prompt" (doesn't need to be administrator) by going to windows start menu and searching it
     - Uncomment the line suitable for your operating system in the "yml" file (line 8 for Unix users and line 6 for Windows users. Uncomment means, "delete the starting "#" sign in the line. If needed, change the directory in "yml" file based on where Anaconda Python is installed on your PC)).
     - Change directory to where you have downloaded the "yml" file (e.g., run `cd Users\YOUR-USERNAME\Downloads\` on Windows)
-    - Run `conda env create -f required_environment.yml` (it will take a while to download and install the libraries, circa 5-15 minutes is normal depending on the system and internet speed)
-    - Check if the installation has been successful and environment is usable (run `conda env list` which should show you "base" and the new environment "daskduckdb". Then run `conda activate daskduckdb` and it should add this name into parenthesis before your prompt e.g., "(daskduckdb) ..."
+    - Run `conda env create -f 00_setup_required_environment.yml` (it will take a while to download and install the libraries, circa 5-15 minutes is normal depending on the system and internet speed)
+    - Check if the installation has been successful and environment is usable (run `conda env list` which should show you "base" and the new environment "bibliodemography". Then run `conda activate bibliodemography` and it should add this name into parenthesis before your prompt e.g., "(bibliodemography) ..."
 - Download the DuckDB CLI from: https://duckdb.org/docs/installation/
 - Install DBeaver from: https://dbeaver.io/download/
 - You can open jupyter lab by opening the "Anaconda prompt" and run `jupyter lab`
-- Now, the second code chunk in the jupyter notebook here (https://github.com/akbaritabar/dask-duckdb-dbeaver/blob/main/out_of_memory_ETL.ipynb) should run without a problem
+- Now, the second code chunk in the code below (the part with import calls) should run without a problem
 - You can open Dbeaver and follow the instructions here to create a connection to DuckDB (https://github.com/dbeaver/dbeaver/wiki/Create-Connection) or you can wait for us to do it together in the session (if you wished to do it, see next point below for a heads-up)
 - You need to establish a connection as DuckDB (DBeaver comes with the needed drivers, you need to create an empty .db (database) file, which you can do by downloading the CLI, calling e.g., duckdb.exe mydb.db for windows using CMD, or ./duckdb mydb.db on mac/linux terminal).
 
@@ -191,7 +193,7 @@ In my case, exported files usually are about 100GB (more or less) and in general
 
 It gives multiple interfaces (e.g., to connect and use it in Python, R or other languages) and I very much liked their command line interface that allows using `SQL` for your queries. This allows me (by keeping a coherent data structure and file/column naming) to use the same SQL scripts I have written before on the newly parsed data.
 
-To use DuckDB's CLI in a more structured way, I turned to [DBeaver](https://dbeaver.io/) which is an open-source database manager tool. I just needed to establish a connection as DuckDB (DBeaver comes with the needed drivers, you need to create an empty `.db` (database) file, which you can do by downloading the CLI, calling e.g., `duckdb.exe mydb.db` for windows using CMD, or `./duckdb mydb.db` on mac/linux terminal). First I am using the pragma keywords to tell DuckDB how much RAM and parallel threads it can use and afterwards create views to my large parquet files (see example SQL script below) and then run my SQL scripts as usual.
+To use DuckDB's CLI in a more structured way, I turned to [DBeaver](https://dbeaver.io/) which is an open-source database manager tool. I just needed to establish a connection as DuckDB (DBeaver comes with the needed drivers, you need to create an empty `.db` (database) file, which you can do by downloading the CLI, calling e.g., `duckdb.exe mydb.db` for windows using CMD, or `./duckdb mydb.db` on mac/linux terminal). First I am using the pragma keywords to tell DuckDB how much RAM and parallel threads it can use and afterwards create views to my large parquet files (see example SQL script below or in script `04_simple_duckdb_dbeaver_query.sql` in the code directory) and then run my SQL scripts as usual.
 
 
 ```SQL
@@ -223,6 +225,3 @@ SELECT count(*), count(DISTINCT orcid_id), COUNT(DISTINCT first_name), COUNT(DIS
 I hope this would be helpful to give you a head-start on thinking about parallel processing for your own use-cases. Let me know how it goes!
 
 
-```python
-
-```

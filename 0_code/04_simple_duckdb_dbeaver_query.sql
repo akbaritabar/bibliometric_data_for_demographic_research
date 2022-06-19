@@ -1,4 +1,4 @@
-CREATE VIEW ORCID AS SELECT * FROM parquet_scan('C:\Users\akbaritabar\Documents\tutorial_michiganUni\dask-duckdb-dbeaver\output\*.parquet');
+CREATE VIEW ORCID AS SELECT * FROM parquet_scan('..\98_outputs\*.parquet');
 
 SELECT * from orcid limit 100;
 
