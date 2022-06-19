@@ -1,0 +1,11 @@
+start,end,type_of_relation,weight
+a,e,son,1
+b,d,student,"0,5"
+c,d,colleague,"0,7"
+d,c,colleague,"0,7"
+e,a,father,1
+f,d,former student,1
+g,d,dauther,1
+d,b,supervisor,"0,8"
+d,g,father,1
+d,f,former student,"0,2"
