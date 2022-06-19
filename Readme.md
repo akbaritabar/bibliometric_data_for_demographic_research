@@ -64,7 +64,7 @@
 
 0. Please clone or download this repository ([https://github.com/akbaritabar/bibliometric_data_for_demographic_research](https://github.com/akbaritabar/bibliometric_data_for_demographic_research)) by clicking on the green button on top right (see photo)
 
-![Clone or download](../99_images/download_from_github.png)
+![Clone or download](99_images/download_from_github.png)
 
 1. Please go over the presentation files in the `2_presentations` directory, some are *self-study* materials that in combination with Python and R scripts in `0_code` directory should help you set-up and get started. You can ask your clarification questions by email or during the workshop Q&A sessions.
 2. For `Python` users to replicate the results, you should follow steps outlined in `0_code\01_Required_installation_setup_python.md` to have all necessary libraries installed.
