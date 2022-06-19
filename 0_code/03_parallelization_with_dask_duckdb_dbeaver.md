@@ -50,6 +50,13 @@ The following software have installation files for Windows/Linux/Mac. Please cho
 - You can open Dbeaver and follow the instructions here to create a connection to DuckDB (https://github.com/dbeaver/dbeaver/wiki/Create-Connection) or you can wait for us to do it together in the session (if you wished to do it, see next point below for a heads-up)
 - You need to establish a connection as DuckDB (DBeaver comes with the needed drivers, you need to create an empty .db (database) file, which you can do by downloading the CLI, calling e.g., duckdb.exe mydb.db for windows using CMD, or ./duckdb mydb.db on mac/linux terminal).
 
+#### 1.1 If environment was messed up, what to do?
+- Calm down, it is OK, the goal of using environments was not to cause harm to other projects and isolate them (and also to ensure replicability of projects!)
+- Activate `base` environment, because we want to delete `bibliodemography` and recreate it.
+- Remove conda environment `bibliodemography` with `conda remove --name bibliodemography --all`
+- Then again install everything with: `conda env create -f 00_setup_required_environment.yml`
+- Activate bibliodemography ("conda activate bibliodemography" and see with "conda info" if everything if fine?)
+
 
 ### 2. Data preparation using Dask in Python
 

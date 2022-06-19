@@ -1,4 +1,4 @@
-### 1. Required installation and set-up for Python
+# 1. Required installation and set-up for Python
 
 The following software have installation files for Windows/Linux/Mac. Please choose the one suitable for your operating system and install them. None of them require administrator privileges to be installed, hence you can use your personal laptop or work PC to install them.
 
@@ -12,3 +12,10 @@ The following software have installation files for Windows/Linux/Mac. Please cho
     - Check if the installation has been successful and environment is usable (run `conda env list` which should show you "base" and the new environment "bibliodemography". Then run `conda activate bibliodemography` and it should add this name into parenthesis before your prompt e.g., "(bibliodemography) ..."
 
 These steps are enough if you wish to replicate text analysis examples, but if you wished to follow the advanced section on parallelization, make sure to follow the extra steps outlined in `03_parallelization_with_dask_duckdb_dbeaver.md`.
+
+# If environment was messed up, what to do?
+- Calm down, it is OK, the goal of using environments was not to cause harm to other projects and isolate them (and also to ensure replicability of projects!)
+- Activate `base` environment, because we want to delete `bibliodemography` and recreate it.
+- Remove conda environment `bibliodemography` with `conda remove --name bibliodemography --all`
+- Then again install everything with: `conda env create -f 00_setup_required_environment.yml`
+- Activate bibliodemography ("conda activate bibliodemography" and see with "conda info" if everything if fine?)
