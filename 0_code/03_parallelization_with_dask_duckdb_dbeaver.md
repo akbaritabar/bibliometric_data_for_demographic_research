@@ -222,6 +222,8 @@ SELECT count(*), count(DISTINCT orcid_id), COUNT(DISTINCT first_name), COUNT(DIS
 
 ```
 
+
+***( is the output used below the same as we processed above? ) 
 ### DBeaver's interface with result of my first query above
 
 ![DBeaver's interface with result of my first query above](../99_images/DBeaver1.png)
