@@ -13,18 +13,21 @@
     - Discussion about potential limitation and future directions of bibliometric data in demographic research
 
 4.	Statement on how the workshop can benefit attendees. 
-    - Familiarity with the availability of bibliometric data as a type of digital data and its potentials for demographic research
+    - Familiarize themselves with the availability of bibliometric data as a type of digital data and its potentials for demographic research
     - Familiarize themselves with the most commonly used and available bibliometric databases
     - Learn about pre-processing steps and handling bibliometric data, including: 
         - Author/organisation name disambiguation 
         - Gender identification
         - Scholarly mobility and movement identification
+
+           (comment 1: I think detecting missing countries, detecting research disciplines are more necessary pre-processing steps / gender and mobility are perhaps optical steps, not necessary for most research) 
     - Learn about practical applications of bibliometric data in demographic research, including:
         - Use of some relevant scientometric indicators
         - Calculation and use of demographic indicators (e.g., Crude Migration Intensity, Migration Effectiveness Index and the Aggregate Net Migration Rate)
         - Network analysis of scientific collaborations
         - Text analysis of bibliometric information
-
+           
+           (comment 2: I for the second points, all the indicatirs list are all for mobility research, a part of demographic research. Is there any common demographic indicator we can list here? ) 
 5.	Structure of workshop (**3 hours 45 minutes**):
     1. Overview of literature on using bibliometric data for demographic research and potential research projects (**30 minutes**)
     2. Panel discussion (**90 minutes**) - invited speakers:
@@ -36,9 +39,15 @@
         - Xinyi Zhao, MPIDR: Gender perspective in international scholarly migration
         - Aliakbar Akbaritabar, MPIDR: Integrating internal and international scholarly migration worldwide
         - Followed by an open discussion between speakers and Q&A.
+
+           (comment 3: I was thinking it i more likely Bibliometric for migration study, all the small talk here are about migration, not covering other topics in demography ) 
+
     3. Introduction to available data sources, especially publicly available data (**30 minutes**)
-    4. Introduction to handling bibliometric data for demographic research: data retrieval, data pre-processing and repurposing based on research questions (**60 minutes**)
-    5. Conclusion and discussion of potential limitations and future directions of using bibliometric data in demographic research (**15 minutes**)
+
+           (comment 4: my view is put it earlier, at least let the audience know the structure of the data) 
+
+    5. Introduction to handling bibliometric data for demographic research: data retrieval, data pre-processing and repurposing based on research questions (**60 minutes**)
+    6. Conclusion and discussion of potential limitations and future directions of using bibliometric data in demographic research (**15 minutes**)
 
 6.	Description of target audience and estimated number of participants (minimum and maximum). 
     - Postgraduate students, early career researchers, those interested in high-skilled and scholarly mobility/migration and those interested in science of science, bibliometrics, scientometrics and informetrics. (Minimum 10 and maximum 25 participants)
@@ -54,8 +63,8 @@
         - CV: https://www.demogr.mpg.de/files/cv/en/4098/Aliakbar_Akbaritabar_shortened_CV.pdf
         - GitHub: [https://github.com/akbaritabar](https://github.com/akbaritabar)
     - **Xinyi ZHAO**
-        - PhD candidate, Max Planck Institute for Demographic Research (MPIDR)
-        - Background in Geography, Demography, Science of Science
+        - PhD candidate, Max Planck Institute for Demographic Research (MPIDR), University of Oxford
+        - Background in Geographical Information System, Demography, Sociology, Science of Science
         - Institutional profile page, projects and publications: https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/xinyi_zhao_4083/ 
         - CV: https://www.demogr.mpg.de/files/cv/en/4083/CV_Xinyi%20Zhao_202111.pdf
         - GitHub: [https://github.com/zxy919781142](https://github.com/zxy919781142)
