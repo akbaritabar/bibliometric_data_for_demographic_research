@@ -49,3 +49,34 @@ visual_style["edge_width"] = 1
 visual_style["layout"] = layout
 visual_style["margin"] = 100
 ig.plot(relations_graph, **visual_style)
+
+# ============================
+#### Different way of building graph (to include all edge attributes) ####
+# ============================
+gg = ig.Graph.DictList(
+  vertices=vertices_table.to_dict('records'),
+  edges=edges_table.to_dict('records'),
+  directed=True,
+  vertex_name_attr="name",
+  edge_foreign_keys=('start', 'end'))
+
+# check summary
+print(gg.summary())
+
+# ============================
+#### plot the new network (with weighted edges) ####
+# ============================
+layout = gg.layout("fr")
+visual_style = dict()
+visual_style["vertex_size"] = 10
+visual_style["vertex_label_size"] = 15
+visual_style["vertex_label_dist"] = 2
+# visual_style["edge_label_size"] = 10
+# visual_style["edge_label_color"] = "red"
+visual_style["vertex_color"] = "red"
+visual_style["vertex_label_color"] = "blue"
+visual_style["vertex_label"] = gg.vs["name"]
+visual_style["edge_width"] = [xx*2 for xx in gg.es["weight"]]
+visual_style["layout"] = layout
+visual_style["margin"] = 100
+ig.plot(gg, **visual_style)
