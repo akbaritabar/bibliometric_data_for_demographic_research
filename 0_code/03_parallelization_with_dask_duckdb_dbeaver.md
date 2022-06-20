@@ -60,7 +60,7 @@ The following software have installation files for Windows/Linux/Mac. Please cho
 
 ### 2. Data preparation using Dask in Python
 
-[**Dask**](https://dask.org/) is a Python library that allows you to use familiar data structures like Pandas dataframe and Numpy array and process them in parallel. In addition, Dask comes with a set of functionalities that are very much helpful to parse unstructured data (i.e., text) using [*bag*](https://docs.dask.org/en/latest/bag.html) or to parallelize custom Python code through using [*futures*](https://docs.dask.org/en/latest/futures.html) or [*delayed*](https://docs.dask.org/en/latest/delayed.html) actions.
+[**Dask**](https://dask.org/) is a Python library that allows you to use familiar data structures like Pandas dataframe and Numpy array and process them in parallel. It can read files that do not fit into the memory. It is much faster if you use file formats that allow chunking (e.g., parquet which is a column based format, see more: [https://en.wikipedia.org/wiki/Apache_Parquet](https://en.wikipedia.org/wiki/Apache_Parquet)). In addition, Dask comes with a set of functionalities that are very much helpful to parse unstructured data (i.e., text) using [*bag*](https://docs.dask.org/en/latest/bag.html) or to parallelize custom Python code through using [*futures*](https://docs.dask.org/en/latest/futures.html) or [*delayed*](https://docs.dask.org/en/latest/delayed.html) actions.
 
 This was [the book](https://www.google.de/books/edition/Data_Science_with_Python_and_Dask/KTkzEAAAQBAJ?hl=en&gbpv=0) that walked me step by step to understand how Dask works and adopt it to my own use-case. Of course videos and tutorials by the Dask team were helpful as well, see them in ([https://examples.dask.org/applications/embarrassingly-parallel.html](https://examples.dask.org/applications/embarrassingly-parallel.html) and make sure to see the best practices [https://docs.dask.org/en/stable/best-practices.html](https://docs.dask.org/en/stable/best-practices.html)).
 
@@ -195,7 +195,6 @@ Here I am adding a screenshot of the Dask dashboard that is very useful in showi
 Now that we are finished pre-processing our XML files (of course parsing all of the ORCID snapshot will take longer depending on the machine you use and computing power), we can go ahead and use the data in our analysis. 
 
 Dask is really powerful in analysis too and dask dataframe is very similar to Pandas and it can read files that do not fit into the memory. It is much faster if you use file formats that allow chunking (e.g., parquet which is a column based format, see more: [https://en.wikipedia.org/wiki/Apache_Parquet](https://en.wikipedia.org/wiki/Apache_Parquet)).
-***(Comment: could we move the introduction for Dsak earier, I think it is interesting for participants especially those who are not familar with it; and the code above have employed it ) 
 
 In my case, exported files usually are about 100GB (more or less) and in general querying them in Python, with or without Dask, takes long. I was introduced by a colleague (thanks Tom) to [DuckDB](https://duckdb.org/) which is amazingly fast in handling large data files and works extremely fast with parquet format.
 
@@ -223,7 +222,6 @@ SELECT count(*), count(DISTINCT orcid_id), COUNT(DISTINCT first_name), COUNT(DIS
 ```
 
 
-***(Commonet: is the output used below the same as we processed above? ) 
 ### DBeaver's interface with result of my first query above
 
 ![DBeaver's interface with result of my first query above](../99_images/DBeaver1.png)
