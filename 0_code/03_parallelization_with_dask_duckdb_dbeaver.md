@@ -45,6 +45,7 @@ The following software have installation files for Windows/Linux/Mac. Please cho
     - Check if the installation has been successful and environment is usable (run `conda env list` which should show you "base" and the new environment "bibliodemography". Then run `conda activate bibliodemography` and it should add this name into parenthesis before your prompt e.g., "(bibliodemography) ..."
 - Download the DuckDB CLI from: https://duckdb.org/docs/installation/
 - Install DBeaver from: https://dbeaver.io/download/
+****(comment: is the order of the links here correct?)
 - You can open jupyter lab by opening the "Anaconda prompt" and run `jupyter lab`
 - Now, the second code chunk in the code below (the part with import calls) should run without a problem
 - You can open Dbeaver and follow the instructions here to create a connection to DuckDB (https://github.com/dbeaver/dbeaver/wiki/Create-Connection) or you can wait for us to do it together in the session (if you wished to do it, see next point below for a heads-up)
