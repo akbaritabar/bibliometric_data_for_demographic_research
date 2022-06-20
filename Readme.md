@@ -4,7 +4,7 @@
 
 2. Organizers:
     - **Aliakbar Akbaritabar** (primary contact person, akbaritabar@demogr.mpg.de), Max Planck Institute for Demographic Research (MPIDR), GitHub: [https://github.com/akbaritabar](https://github.com/akbaritabar)
-    - **Xinyi Zhao** (zhao@demogr.mpg.de), Max Planck Institute for Demographic Research (MPIDR), GitHub: [https://github.com/zxy919781142](https://github.com/zxy919781142)
+    - **Xinyi Zhao** (zhao@demogr.mpg.de), Max Planck Institute for Demographic Research (MPIDR), University of Oxford, GitHub: [https://github.com/zxy919781142](https://github.com/zxy919781142)
 
 3.	Description of workshop objectives, goals, and expected outcomes. 
     - Overview of literature on using bibliometric data for demographic research and potential research projects and some of the newest bibliometric applications
