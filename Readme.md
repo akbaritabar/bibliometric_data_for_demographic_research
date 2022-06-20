@@ -38,10 +38,8 @@
         - Followed by an open discussion between speakers and Q&A.
 
     3. Introduction to available data sources, especially publicly available data (**30 minutes**)
-        - (comment 4: my view is put it earlier, at least let the audience know the structure of the data) 
-
-    5. Introduction to handling bibliometric data for demographic research: data retrieval, data pre-processing and repurposing based on research questions (**60 minutes**)
-    6. Conclusion and discussion of potential limitations and future directions of using bibliometric data in demographic research (**15 minutes**)
+    4. Introduction to handling bibliometric data for demographic research: data retrieval, data pre-processing and repurposing based on research questions (**60 minutes**)
+    5. Conclusion and discussion of potential limitations and future directions of using bibliometric data in demographic research (**15 minutes**)
 
 6.	Description of target audience and estimated number of participants (minimum and maximum). 
     - Postgraduate students, early career researchers, those interested in high-skilled and scholarly mobility/migration and those interested in science of science, bibliometrics, scientometrics and informetrics. (Minimum 10 and maximum 25 participants)
