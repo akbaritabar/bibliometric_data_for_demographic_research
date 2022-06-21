@@ -1,3 +1,4 @@
+# please rename the environment if someone else on the same computer might use this name
 name: bibliodemography
 channels:
   - conda-forge

@@ -36,7 +36,7 @@ The following software have installation files for Windows/Linux/Mac. Please cho
 **NOTE**: If you have already followed steps outlined in `01_Required_installation_setup_python.md`, you can skip first steps (conda environment creation) and jump to step on DuckDB, i.e., `Download the DuckDB CLI from: https://duckdb.org/docs/installation/` below.
 
 - Clone (download) this repository from GitHub: [https://github.com/akbaritabar/bibliometric_data_for_demographic_research](https://github.com/akbaritabar/bibliometric_data_for_demographic_research)
-- Please install Anaconda Python from: https://www.anaconda.com/products/individual
+- Please install Anaconda Python from: https://www.anaconda.com/products/individual (**NOTE**: if you use other distributions of Python or environment management systems, it is OK, but make sure to install all libraries in yaml file and run the codes to see if they work?)
     - Use the "yml" file in this directory named "00_setup_required_environment.yml" and conda to create an environment with needed python libraries following points below
     - After successful installation of python, open "Anaconda prompt" (doesn't need to be administrator) by going to windows start menu and searching it
     - Uncomment the line suitable for your operating system in the "yml" file (line 8 for Unix users and line 6 for Windows users. Uncomment means, "delete the starting "#" sign in the line. If needed, change the directory in "yml" file based on where Anaconda Python is installed on your PC)).
@@ -52,7 +52,7 @@ The following software have installation files for Windows/Linux/Mac. Please cho
 - You need to establish a connection as DuckDB (DBeaver comes with the needed drivers, you need to create an empty .db (database) file, which you can do by downloading the CLI, calling e.g., duckdb.exe mydb.db for windows using CMD, or ./duckdb mydb.db on mac/linux terminal).
 
 #### 1.1 If environment was messed up, what to do?
-- Calm down, it is OK, the goal of using environments was not to cause harm to other projects and isolate them (and also to ensure replicability of projects!)
+- First, calm down, it is OK, the goal of using environments was not to cause harm to other projects and isolate them (and also to ensure replicability of projects!)
 - Activate `base` environment (with `conda activate base`), because we want to delete `bibliodemography` and recreate it.
 - Remove conda environment `bibliodemography` with `conda remove --name bibliodemography --all`
 - Then again install everything with: `conda env create -f 00_setup_required_environment.yml`
